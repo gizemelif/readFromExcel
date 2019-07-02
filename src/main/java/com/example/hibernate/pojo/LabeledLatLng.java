@@ -1,6 +1,6 @@
-package com.example.hibernate.dao;
+package com.example.hibernate.pojo;
 
-public class LabeledLatLngDao {
+public class LabeledLatLng {
 
     private String label;
     private Double lat;

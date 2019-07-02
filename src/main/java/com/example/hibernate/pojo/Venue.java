@@ -7,7 +7,7 @@ import com.example.VenuePage;
 
 import java.util.List;
 
-public class VenueDao {
+public class Venue {
     private String id;
     private String name;
     private Location location;

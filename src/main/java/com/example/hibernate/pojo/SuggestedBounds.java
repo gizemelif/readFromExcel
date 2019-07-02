@@ -3,7 +3,7 @@ package com.example.hibernate.pojo;
 import com.example.Ne;
 import com.example.Sw;
 
-public class SuggestedBoundsDao {
+public class SuggestedBounds {
     private Ne ne;
     private Sw sw;
 

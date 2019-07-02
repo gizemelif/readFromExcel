@@ -6,7 +6,7 @@ import com.example.SuggestedFilters;
 
 import java.util.List;
 
-public class ResponseDao {
+public class Response {
     private SuggestedFilters suggestedFilters;
     private Integer suggestedRadius;
     private String headerLocation;

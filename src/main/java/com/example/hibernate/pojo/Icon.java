@@ -1,6 +1,6 @@
-package com.example.hibernate.dao;
+package com.example.hibernate.pojo;
 
-public class IconDao {
+public class Icon {
     private String prefix;
     private String suffix;
 

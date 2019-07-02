@@ -1,6 +1,6 @@
+import com.example.Item;
 import com.example.FourSquareResponse;
 import com.example.Group;
-import com.example.Item;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
@@ -10,12 +10,12 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.TypeReference;
-
 import java.io.*;
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws Exception{
+
         File excelFile = new File("C:\\Users\\geatalay\\Desktop\\Kayseri_Mahalle.xlsx");
         FileInputStream fis = new FileInputStream(excelFile);
 
@@ -83,7 +83,7 @@ public class Main {
                         }
 
                         for (int i = 0; i < groups.size(); i++) {
-                            Group group = groups.get(i);
+                            com.example.Group group = groups.get(i);
                             List<Item> items = group.getItems();
                             for (int j = 0; j < items.size(); j++) {
                                 Item item = items.get(j);

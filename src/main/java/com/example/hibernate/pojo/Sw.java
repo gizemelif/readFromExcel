@@ -1,6 +1,6 @@
 package com.example.hibernate.pojo;
 
-public class SwDao {
+public class Sw {
     private Double lat;
     private Double lng;
 

@@ -1,6 +1,6 @@
-package com.example.hibernate.dao;
+package com.example.hibernate.pojo;
 
-public class FilterDao {
+public class Filter {
     private String name;
     private String key;
 

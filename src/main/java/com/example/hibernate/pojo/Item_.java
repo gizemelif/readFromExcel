@@ -1,6 +1,6 @@
-package com.example.hibernate.dao;
+package com.example.hibernate.pojo;
 
-public class Item_Dao {
+public class Item_ {
 
     private String summary;
     private String type;

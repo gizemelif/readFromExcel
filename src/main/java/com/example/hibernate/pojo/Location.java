@@ -1,10 +1,10 @@
-package com.example.hibernate.dao;
+package com.example.hibernate.pojo;
 
 import com.example.LabeledLatLng;
 
 import java.util.List;
 
-public class LocationDao {
+public class Location {
     private String address;
     private String crossStreet;
     private Double lat;

@@ -3,7 +3,7 @@ package com.example.hibernate.pojo;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class MetaDao {
+public class Meta {
     private Integer code;
     private String requestId;
 

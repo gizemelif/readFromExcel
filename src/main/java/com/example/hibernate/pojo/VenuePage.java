@@ -1,6 +1,6 @@
 package com.example.hibernate.pojo;
 
-public class VenuePageDao {
+public class VenuePage {
     private String id;
 
     public String getId() {

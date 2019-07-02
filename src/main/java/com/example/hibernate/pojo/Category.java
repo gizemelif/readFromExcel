@@ -1,8 +1,8 @@
-package com.example.hibernate.dao;
+package com.example.hibernate.pojo;
 
 import com.example.Icon;
 
-public class CategoryDao {
+public class Category {
 
         private String id;
         private String name;

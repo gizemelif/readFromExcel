@@ -1,9 +1,9 @@
-package com.example.hibernate.dao;
+package com.example.hibernate.pojo;
 
 import com.example.Reasons;
 import com.example.Venue;
 
-public class ItemDao {
+public class Item {
     private Reasons reasons;
     private Venue venue;
     private String referralId;

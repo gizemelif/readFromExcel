@@ -4,7 +4,7 @@ import com.example.Filter;
 
 import java.util.List;
 
-public class SuggestedFiltersDao {
+public class SuggestedFilters {
     private String header;
     private List<Filter> filters = null;
 

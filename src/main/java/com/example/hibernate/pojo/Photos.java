@@ -2,7 +2,7 @@ package com.example.hibernate.pojo;
 
 import java.util.List;
 
-public class PhotosDao {
+public class Photos {
 
     private Integer count;
     private List<Object> groups = null;

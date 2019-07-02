@@ -1,9 +1,9 @@
-package com.example.hibernate.dao;
+package com.example.hibernate.pojo;
 
-import com.example.Meta;
-import com.example.Response;
+import com.example.hibernate.pojo.Meta;
+import com.example.hibernate.pojo.Response;
 
-public class FourSquareResponseDao {
+public class FourSquareResponse {
     private Meta meta;
     private Response response;
 

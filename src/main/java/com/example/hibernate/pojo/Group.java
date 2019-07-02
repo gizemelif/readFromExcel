@@ -1,10 +1,10 @@
-package com.example.hibernate.dao;
+package com.example.hibernate.pojo;
 
 import com.example.Item;
 
 import java.util.List;
 
-public class GroupDao {
+public class Group {
 
     private String type;
     private String name;

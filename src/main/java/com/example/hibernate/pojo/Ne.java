@@ -1,6 +1,6 @@
 package com.example.hibernate.pojo;
 
-public class NeDao {
+public class Ne {
 
     private Double lat;
     private Double lng;

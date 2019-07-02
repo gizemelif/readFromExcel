@@ -4,7 +4,7 @@ import com.example.Item_;
 
 import java.util.List;
 
-public class ReasonsDao {
+public class Reasons {
 
     private Integer count;
     private List<Item_> items = null;
